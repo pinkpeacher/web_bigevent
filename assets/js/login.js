@@ -11,7 +11,7 @@ $(function () {
   form.verify({
     pwd: [/^[\S]{6,12}$/, '密码必须为6到12位且不能出现空格'],
     // 校验两次密码
-    repwd: function (value) {
+    repwd: function (value) { 
       // 通过形参拿到的是确认密码框中的内容
       // 还需要拿到密码框中的内容
       // 然后进行一次等于的判断

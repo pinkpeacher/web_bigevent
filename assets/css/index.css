@@ -17,7 +17,7 @@ iframe{
     overflow: hidden;
 }
 a{
-    transition: none;
+    transition: none!important;
 }
 .userinfo{
     height: 60px;
