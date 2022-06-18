@@ -43,6 +43,7 @@ $(function () {
           icon: 1,
           time: 2000
         }, function () {
+          $('#form_reg')[0].reset()
           $('#login_link').click()
         });
       }
